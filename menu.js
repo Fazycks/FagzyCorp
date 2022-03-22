@@ -37,17 +37,3 @@ input.addEventListener('click', changerEtatMenu)
 if (input.checked) {
   changerEtatMenu()
 }
-
-
-jQuery(function(){
-  $(function () {
-      $(window).scroll(function () {
-          if ($(this).scrollTop() > 200 ) { 
-              $('#scrollUp').css('right','10px');
-          } else { 
-              $('#scrollUp').removeAttr( 'style' );
-          }
-
-      });
-  });
-});

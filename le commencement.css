@@ -103,6 +103,18 @@ a.lien1 {
   font-size: 28px;
 }
 
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
+
+html { 
+  scroll-behavior: smooth; 
+}
+
 svg {
   position: fixed;
   top: 20px;
